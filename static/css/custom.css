@@ -176,7 +176,7 @@ body {
 	margin-bottom: 0;
 }
 
-pre {
+pre, code {
 	font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
 	background: #f0f0f0;
 	font-size: 0.8em;
