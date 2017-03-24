@@ -7,37 +7,37 @@
 			      {{ if .Site.Author.name }}
                   <li class="pure-menu-heading" id="foot-name">{{ .Site.Author.name }}:</li>
                   {{ end }}
-				  
+
                   {{ if .Site.Author.email }}
                   <li class="pure-menu-item">
                       <a href="mailto:{{ .Site.Author.email }}" class="pure-menu-link">Email</a>
                   </li>
                   {{ end }}
-          
+
                   {{ if .Site.Author.github }}
                   <li class="pure-menu-item">
                       <a href="https://github.com/{{ .Site.Author.github }}" class="pure-menu-link">GitHub</a>
                   </li>
                   {{ end }}
-          
+
                   {{ if .Site.Author.linkedin }}
                   <li class="pure-menu-item">
                       <a href="https://www.linkedin.com/in/{{ .Site.Author.linkedin }}" class="pure-menu-link">LinkedIn</a>
                   </li>
                   {{ end }}
-          
+
                   {{ if .Site.Author.facebook }}
                   <li class="pure-menu-item">
                       <a href="https://www.facebook.com/{{ .Site.Author.facebook }}" class="pure-menu-link">Facebook</a>
                   </li>
                   {{ end }}
-          
+
                   {{ if .Site.Author.twitter }}
                   <li class="pure-menu-item">
                       <a href="https://twitter.com/{{ .Site.Author.twitter }}" class="pure-menu-link">Twitter</a>
                   </li>
                   {{ end }}
-          
+
               </ul>
               <a href="#" class="pure-menu-heading pull-right" id="gototop-btn">↑↑</a>
           </div>
@@ -48,11 +48,6 @@
 	  </div>
       <div class="pure-u-1-24 pure-u-md-1-6"></div>
 </div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/2.0.4/timeago.min.js" integrity="sha256-34otvl+f6DWlliQUlAwT5hvizEJc8lPlNpW9T23pfGA=" crossorigin="anonymous"></script>
-<script type="text/javascript">
-  new timeago().render(document.querySelectorAll('.timeago'));
-</script>
 <script type="text/javascript">
 go();
 window.addEventListener('resize', go);
