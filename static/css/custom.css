@@ -193,9 +193,20 @@ blockquote {
 }
 
 .caption {
-	text-align: right;
 	font-size: 0.8em;
-	width: 100%;
+	font-style: italic;
+	margin-top: 5px;
+}
+
+figure {
+	margin: auto;
+	text-align: center;
+}
+
+figcaption > p {
+	font-size: 0.8em;
+	font-style: italic;
+	margin-top: 5px;
 }
 
 .pure-table caption {
